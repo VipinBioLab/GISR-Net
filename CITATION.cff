@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If you use this software or the GICQI metric, please cite the paper below."
+title: "GISR-Net: An image-to-scalar regressor for quality assessment of illumination correction in dermatological macro-photographs"
+abstract: >-
+  GISR-Net is a GoogLeNet-based image-to-scalar regressor that predicts the
+  quality of illumination-corrected dermatological macro-photographs. It is
+  trained with task-based supervision: the target is the mean Dice similarity
+  index obtained by Otsu, minimum error and Kapur maximum entropy thresholding,
+  so the predicted score (the GoogLeNet Illumination Correction Quality Index,
+  GICQI) agrees with downstream lesion-segmentation accuracy rather than with
+  subjective perceptual quality. All results are obtained under
+  source-image-disjoint six-fold cross-validation.
+type: software
+license: MIT
+repository-code: "https://github.com/VipinBioLab/GISR-Net"
+keywords:
+  - no-reference image quality assessment
+  - task-based image quality assessment
+  - illumination correction
+  - dermatological macro-photographs
+  - skin lesion segmentation
+  - image-to-scalar regression
+  - deep learning
+
+authors:
+  - family-names: Venugopal
+    given-names: Vipin
+    affiliation: "School of Artificial Intelligence, Amrita Vishwa Vidyapeetham, Coimbatore-641112, India"
+  - family-names: Nath
+    given-names: Malaya Kumar
+    affiliation: "Department of Electronics and Communication Engineering, National Institute of Technology Puducherry, Karaikal, Puducherry-609609, India"
+  - family-names: Joseph
+    given-names: Justin
+    affiliation: "Department of Electronics and Communication Engineering, Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, Karnataka-576104, India"
+  - family-names: Simi
+    given-names: V. R.
+    affiliation: "Department of Computer Science and Engineering, Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, Karnataka-576104, India"
+  - family-names: Anoop
+    given-names: B. N.
+    affiliation: "Manipal Institute of Technology, Manipal Academy of Higher Education (MAHE), Manipal, Udupi, Karnataka-576104, India"
+
+# ---------------------------------------------------------------------------
+# Update this block once the paper is accepted: add journal, volume, pages,
+# year and doi, and remove the "submitted" note.
+# ---------------------------------------------------------------------------
+preferred-citation:
+  type: article
+  title: "GISR-Net: An image-to-scalar regressor for quality assessment of illumination correction in dermatological macro-photographs"
+  authors:
+    - family-names: Venugopal
+      given-names: Vipin
+    - family-names: Nath
+      given-names: Malaya Kumar
+    - family-names: Joseph
+      given-names: Justin
+    - family-names: Simi
+      given-names: V. R.
+    - family-names: Anoop
+      given-names: B. N.
+  year: 2025
+  notes: "Manuscript submitted to an Elsevier journal; under review."
