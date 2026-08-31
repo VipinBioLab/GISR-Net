@@ -1,20 +1,3 @@
-"""
-Figure generation for the revised manuscript.
-
-Produces (into GISRNet_Results/figures):
-
-  fig_scatter_train_test        GICQI vs mean DSI, training and test partitions
-  fig_scatter_per_fold          test scatter for each of the six folds
-  fig_iqa_vs_dsi                LOE / AGIC / GICQI vs mean DSI  (revised Fig. 8)
-  fig_correlation_bars          PLCC / SROCC / KROCC per IQA metric
-  fig_learning_curves           training loss and validation RMSE per fold
-  fig_bland_altman              agreement between GICQI and mean DSI
-  fig_residuals                 residual vs predicted, plus residual histogram
-  fig_external_scatter          HF_Test and MED-NODE generalisation scatter
-  fig_ablation                  head variant / augmentation / TL-vs-RI ablation
-  fig_per_method_error          prediction error grouped by correction algorithm
-  fig_leakage_diagram           source-disjoint split schematic
-"""
 
 from __future__ import annotations
 
