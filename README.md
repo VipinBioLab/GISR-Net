@@ -20,7 +20,6 @@ Dermatological macro-photographs captured with ordinary digital cameras frequent
 
 **GISR-Net** is a GoogLeNet-based image-to-scalar regressor trained with **task-based supervision**. Rather than subjective perceptual ratings, the training target is the mean Dice similarity index (DSI) achieved by three classical thresholding methods — Otsu, minimum error and Kapur maximum entropy — on the same image. The predicted score is termed the **GoogLeNet Illumination Correction Quality Index (GICQI)** and lies on the same [0, 1] scale as the Dice index.
 
-The contribution is the task-based supervision framework and its validation. Replacing the classification head of a pretrained backbone with a regression layer is a standard transfer-learning operation and is not claimed as a novelty.
 
 ## Key results
 
