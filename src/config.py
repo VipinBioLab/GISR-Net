@@ -1,8 +1,4 @@
 """
-Global configuration and path resolution for the GISR-Net revision experiments.
-
-Reviewer-driven protocol summary
---------------------------------
 * 800 illumination-corrected images derive from only 50 SOURCE photographs
   (16 correction algorithms x 50 sources).  Every split in this code base is
   made at the SOURCE-IMAGE level, never at the image level.  See `folds.py`.
