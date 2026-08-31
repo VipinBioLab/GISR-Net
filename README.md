@@ -91,7 +91,6 @@ This runs the fold construction and leakage check, builds the external test sets
 
 Options: `EPOCHS=10` for a quick trial, `ACCUM=4` to fit a smaller GPU (the effective batch size stays 32).
 
-A Colab notebook is provided in [`notebooks/`](notebooks/GISRNet_Colab.ipynb).
 
 ### Train a single configuration
 
