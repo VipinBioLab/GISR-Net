@@ -1,7 +1,0 @@
-Fold,Training sources,Validation sources,Test sources,Identifiers of the held-out source photographs
-Fold 1,40 (640 images),5 (80 images),5 (80 images),"02, 03, 18, 21, 49"
-Fold 2,40 (640 images),5 (80 images),5 (80 images),"09, 19, 30, 31, 32"
-Fold 3,40 (640 images),5 (80 images),5 (80 images),"16, 33, 42, 44, 48"
-Fold 4,40 (640 images),5 (80 images),5 (80 images),"04, 06, 08, 15, 39"
-Fold 5,40 (640 images),5 (80 images),5 (80 images),"01, 10, 29, 34, 36"
-Fold 6,40 (640 images),5 (80 images),5 (80 images),"12, 13, 23, 27, 43"

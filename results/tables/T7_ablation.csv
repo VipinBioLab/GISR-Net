@@ -1,6 +1,0 @@
-Configuration,Test MAE,Test RMSE,Test PLCC,Test SROCC
-"Transfer learning, augmentation, linear head (proposed)",0.114 +- 0.025,0.154 +- 0.035,0.66,0.67
-Random initialisation (no transfer learning),0.108 +- 0.031,0.144 +- 0.049,0.72,0.73
-No data augmentation,0.093 +- 0.027,0.123 +- 0.032,0.72,0.73
-MLP regression head,0.111 +- 0.033,0.146 +- 0.045,0.69,0.69
-Sigmoid-bounded regression head,0.102 +- 0.026,0.132 +- 0.034,0.74,0.72
