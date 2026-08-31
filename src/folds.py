@@ -1,11 +1,5 @@
 """
 Source-image-disjoint fold construction.
-
-This module is the direct answer to Reviewer #1 comment 2 and Reviewer #2
-comment 1: *all* corrected versions (and all augmentations) of a given original
-photograph are guaranteed to live in exactly one of {train, val, test} within a
-fold.
-
 Protocol
 --------
 The 50 original photographs are shuffled once with a fixed seed and partitioned
