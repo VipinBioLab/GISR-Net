@@ -100,7 +100,6 @@ python src/train.py --arch gisrnet --tag gisrnet_tl --auto-lr           # propos
 python src/train.py --arch gisrnet --tag gisrnet_ri --auto-lr --no-pretrained
 python src/train.py --arch gisrnet --tag gisrnet_noaug --auto-lr --no-augment
 python src/train.py --arch gisrnet --tag gisrnet_mlp --auto-lr --head mlp
-python src/train.py --arch gisrnet --tag gisrnet_sigmoid --auto-lr --head sigmoid
 ```
 
 `--auto-lr` selects the initial learning rate with a short probe over a fixed grid, scored on the fold-1 validation partition only; the test partitions play no part in the choice. Everything else — optimiser, schedule shape, batch size, augmentation, folds and target — is held fixed, so the ablations isolate the component being varied.
