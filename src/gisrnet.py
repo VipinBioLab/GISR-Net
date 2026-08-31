@@ -1,7 +1,7 @@
 """
 GISR-Net -- GoogLeNet-based Image-to-Scalar Regressor.
 
-Faithful PyTorch re-implementation of the architecture in Table 1 of the
+PyTorch implementation of the architecture in Table 1 of the
 manuscript:
 
     Input 224x224x3
@@ -19,11 +19,6 @@ manuscript:
     Fully connected            ->    1x1x1
     Regression output          ->    GICQI scalar
 
-Three regression-head variants are provided for the ablation requested by
-Reviewer #1 comment 7:
-    'linear'  - Dropout + Linear(1024, 1)                (manuscript default)
-    'mlp'     - Dropout + Linear(1024,256) + ReLU + Dropout + Linear(256,1)
-    'sigmoid' - 'linear' followed by a sigmoid, bounding GICQI to [0, 1]
 """
 
 from __future__ import annotations
@@ -120,8 +115,6 @@ def make_head(in_features: int, variant: str = "linear", p_drop: float = 0.40) -
         return nn.Sequential(
             nn.Dropout(p_drop), nn.Linear(in_features, 256), nn.ReLU(inplace=True),
             nn.Dropout(p_drop / 2), nn.Linear(256, 1))
-    if variant == "sigmoid":
-        return nn.Sequential(nn.Dropout(p_drop), nn.Linear(in_features, 1), nn.Sigmoid())
     raise ValueError(f"unknown head variant '{variant}'")
 
 
