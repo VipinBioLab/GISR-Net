@@ -139,13 +139,15 @@ If you use this code or the GICQI metric, please cite:
 
 ```bibtex
 @article{Venugopal_gisrnet,
-  title   = {{GISR-Net}: An image-to-scalar regressor for quality assessment of
-             illumination correction in dermatological macro-photographs},
-  author  = {Venugopal, Vipin and Nath, Malaya Kumar and Joseph, Justin and
-             Simi, V. R. and Anoop, B. N.},
-  journal = {Elsevier (submitted)},
-  year    = {2025},
-  note    = {Manuscript submitted for publication}
+  title = {GISR-Net: An image-to-scalar regressor for quality assessment of illumination correction in dermatological macro-photographs},
+journal = {Informatics in Medicine Unlocked},
+volume = {66},
+pages = {101826},
+year = {2026},
+issn = {2352-9148},
+doi = {https://doi.org/10.1016/j.imu.2026.101826},
+url = {https://www.sciencedirect.com/science/article/pii/S2352914826000973},
+author = {Vipin Venugopal and Malaya Kumar Nath and Justin Joseph and V.R. Simi and Anoop B.N.},
 }
 ```
 
